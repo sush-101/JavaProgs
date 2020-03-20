@@ -58,7 +58,7 @@ Example-2:
 	Output:
 		8*/
     import java.util.*;
-class Sets{
+class WinningPair{
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(),res=0;
