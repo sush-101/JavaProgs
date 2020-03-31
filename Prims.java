@@ -65,6 +65,7 @@ public class Prims {
             
         }
     }
+	
     static int getMinimum(int V){
         int res = -1;
         long min = Long.MAX_VALUE;
