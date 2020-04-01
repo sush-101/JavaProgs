@@ -22,6 +22,7 @@ Sample Output 1 :
 1 3
 2 4
 3 5*/
+
 import java.util.*;
 class Node{
     int id;
