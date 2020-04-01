@@ -62,7 +62,7 @@ public class Prims {
                 parent[v] = cur;
             } 
         }
-            
+        
         }
     }
 	
