@@ -11,7 +11,7 @@ OUTPUT
 Output q lines, each line containing the maximum possible weight of the match for given query, else -1, in case no valid result is obtained.
 CONSTRAINTS
 1 ≤ n, weight, len(s), len(t) ≤ 10^6
-1 ≤ q ≤ 10^5
+1 ≤ q ≤ 10^5 
 total length of all strings in database entries ≤ 10^6
 total length of all query strings ≤ 10^6
 SAMPLE INPUT
