@@ -44,8 +44,8 @@ Output:
 7 22937308
 8 99167
 9 15476
-10 23076518
-*/
+10 2307651833332333333333333
+HINT at bottom*/
 
 import java.util.Scanner;
 import java.lang.Math.*;
@@ -76,3 +76,8 @@ public class Main {
         }
     }
 }
+
+/*HINT : Though it might seem like the ABC at n is k , but ABC at any position < n can be k.
+So, we maintain a 3d dp to store the index,ABC at the index,and that particular ABC for length 'index' ending with '0' or '1'
+dp[i][k][0] stores  no of binary strings of length 'i', ABC k , ending  with '0'
+*/
