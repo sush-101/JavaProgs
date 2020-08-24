@@ -16,6 +16,7 @@ class DetectCycle
         vis[cur] = 1;
         for(int x:adj.get(cur)){
             if(rec[x] == 1)return false;
+            if(vis[x] == 1)continue;
             if(!isLoop(adj,x))return false;
         }
         rec[cur] = 0;
