@@ -73,7 +73,8 @@ class Pair{
     }
     @Override
     public int hashCode(){
-        return new Integer(this.x).hashCode()+new Integer(this.y).hashCode();
+        return this.x*99 + this.y*13;
+        //return new Integer(this.x).hashCode()+new Integer(this.y).hashCode();
     }
     @Override
     public boolean equals(Object o){
