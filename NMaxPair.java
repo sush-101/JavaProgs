@@ -1,4 +1,5 @@
-/ N max pair combinations - https://www.interviewbit.com/problems/n-max-pair-combinations/
+/*
+N max pair combinations - https://www.interviewbit.com/problems/n-max-pair-combinations/
 *Given two arrays A & B of size N each.
 Find the maximum N elements from the sum combinations (Ai + Bj) formed from elements in array A and B.
 
@@ -17,6 +18,8 @@ Maximum 4 elements of combinations sum are
 9    (4+5),
 8    (2+6)
 
+
+NOTE : IF HASHCODE IS NOT IMPLEMENTED, THEN NO NEED OF IMPLEMENTING EQUALS METHOD, BECAUSE IN HASHING, THE SET/MAP FIRST LOOKS AT THE BUCKET AND THEN IMPLEMENTS EQUALS.
 */
 
 public class Solution {
